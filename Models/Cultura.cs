@@ -15,7 +15,6 @@ namespace Atividade_1.Models
 
         [Required]
         [StringLength(40)]
-        [EmailAddress]
         public string tipo { get; set; }
 
         [Required]
